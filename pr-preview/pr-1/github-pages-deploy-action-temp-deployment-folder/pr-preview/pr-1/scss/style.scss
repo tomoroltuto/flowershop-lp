@@ -45,7 +45,7 @@ Header
 Top
 -------------------------------------------*/
 .top {
-    width: 100%;
+    max-width: 1526px;
     height: 532px;
     background: url("../images/Flower_Top.jpg") no-repeat;
     background-size: cover;
@@ -72,7 +72,6 @@ Concept
     .contents {
         display: flex;
         margin: 0 auto;
-        width: fit-content;
 
         .img {
             max-width: 497px;
