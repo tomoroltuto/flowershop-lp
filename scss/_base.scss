@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*-------------------------------------------
+共通
+-------------------------------------------*/
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $bg-color;
+    font-family: $font-jp;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: $main-color;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.page-header {
+   text-align: center;
+   padding-bottom: 64px;
+
+   .page-title {
+        .en {
+            display: block;
+            font-family: $font-en;
+            color: $main-color;
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .ja {
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+        }
+   }
+}
