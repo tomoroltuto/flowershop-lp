@@ -9,7 +9,7 @@
 - ホバーエフェクトの実装
 
 # 成果物
-以下のURLから動作確認していただければ幸いです。
+以下のURLから動作確認できます。
 
 [フラワーショップサイト](https://tomoroltuto.github.io/flowershop-lp/index.html)
 
